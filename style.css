@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Young Serif";
+}
+
+h4 {
+  color: hsl(332, 51%, 32%);
+}
+
+h1 {
+  margin: 2rem 2rem 2rem 0;
+  font-weight: 500;
+}
+
+h2,
+td,
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+}
+h2 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 662px;
+  padding: 3rem;
+  border-radius: 1rem;
+  line-height: 2rem;
+  font-size: 13px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-omelette {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+p {
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+main {
+  color: hsl(24, 5%, 18%);
+}
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.ingredients {
+  margin-bottom: 1rem;
+}
+.instructions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: solid 2px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 2px;
+  border-color: hsl(12, 11%, 82%);
+}
+.nutrition {
+  margin-top: 2rem;
+}
+ul {
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+}
+
+ol {
+  padding-left: 1rem;
+  text-indent: 1rem;
+}
+table {
+  text-align: left;
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+th,
+tr {
+  padding-right: 1rem;
+}
+@media (max-width: 375px) {
+  .container {
+    font-family: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0%;
+  }
+  header {
+    padding-top: 0px;
+  }
+}
